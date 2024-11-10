@@ -1,0 +1,840 @@
+2024-11-09T22:23:17.214Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:23:17.222Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 9ms
+2024-11-09T22:23:17.223Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:23:17.380Z Response: POST /api/users/login - Status: 200 - Duration: 157ms
+2024-11-09T22:26:02.532Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:26:02.539Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 8ms
+2024-11-09T22:26:02.541Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:26:02.704Z Response: POST /api/users/login - Status: 200 - Duration: 163ms
+2024-11-09T22:26:44.837Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:26:44.844Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 8ms
+2024-11-09T22:26:44.846Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:26:45.012Z Response: POST /api/users/login - Status: 200 - Duration: 166ms
+2024-11-09T22:28:17.958Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:28:17.960Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 2ms
+2024-11-09T22:28:17.962Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:28:18.084Z Response: POST /api/users/login - Status: 200 - Duration: 123ms
+2024-11-09T22:29:04.155Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:29:04.156Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 1ms
+2024-11-09T22:29:04.159Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:29:04.289Z Response: POST /api/users/login - Status: 200 - Duration: 130ms
+2024-11-09T22:29:39.845Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:29:39.846Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 1ms
+2024-11-09T22:29:39.848Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:29:39.971Z Response: POST /api/users/login - Status: 200 - Duration: 123ms
+2024-11-09T22:30:21.266Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:30:21.267Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 1ms
+2024-11-09T22:30:21.269Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:30:21.389Z Response: POST /api/users/login - Status: 200 - Duration: 120ms
+2024-11-09T22:31:25.349Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:31:25.357Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 8ms
+2024-11-09T22:31:25.359Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:31:25.513Z Response: POST /api/users/login - Status: 200 - Duration: 154ms
+2024-11-09T22:31:36.538Z Request: GET /api/users/login - undefined - {}
+2024-11-09T22:31:36.544Z Response: GET /api/users/login - Status: 404 - Duration: 6ms
+2024-11-09T22:32:22.896Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:32:22.903Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 8ms
+2024-11-09T22:32:22.905Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:32:23.071Z Response: POST /api/users/login - Status: 200 - Duration: 166ms
+2024-11-09T22:33:27.017Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:33:27.025Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 9ms
+2024-11-09T22:33:27.027Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:33:27.193Z Response: POST /api/users/login - Status: 200 - Duration: 166ms
+2024-11-09T22:34:43.996Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:34:44.004Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 8ms
+2024-11-09T22:34:44.007Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:34:44.175Z Response: POST /api/users/login - Status: 200 - Duration: 168ms
+2024-11-09T22:35:15.275Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:35:15.276Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 1ms
+2024-11-09T22:35:15.279Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:35:15.414Z Response: POST /api/users/login - Status: 200 - Duration: 135ms
+2024-11-09T22:36:05.272Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-09T22:36:05.273Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 1ms
+2024-11-09T22:36:05.276Z Request: POST /api/users/login - undefined - {}
+2024-11-09T22:36:05.404Z Response: POST /api/users/login - Status: 200 - Duration: 128ms
+2024-11-10T07:47:44.827Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:47:44.835Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 9ms
+2024-11-10T07:47:44.837Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:47:44.838Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T07:47:44.839Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:47:44.861Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:47:44.867Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:47:44.869Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 2ms
+2024-11-10T07:47:44.871Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:47:44.873Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 2ms
+2024-11-10T07:47:44.895Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 56ms
+2024-11-10T07:47:44.898Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 37ms
+2024-11-10T07:47:44.899Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:47:44.905Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:47:44.923Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 24ms
+2024-11-10T07:47:44.926Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 21ms
+2024-11-10T07:50:03.128Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T07:50:03.130Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 2ms
+2024-11-10T07:50:03.132Z Request: POST /api/users/login - undefined - {}
+2024-11-10T07:50:03.305Z Response: POST /api/users/login - Status: 200 - Duration: 173ms
+2024-11-10T07:53:15.465Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T07:53:15.466Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 1ms
+2024-11-10T07:53:15.468Z Request: POST /api/users/login - undefined - {}
+2024-11-10T07:53:15.596Z Response: POST /api/users/login - Status: 200 - Duration: 128ms
+2024-11-10T07:53:56.448Z Request: OPTIONS /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T07:53:56.449Z Response: OPTIONS /api/users?limit=5&offset=0 - Status: 204 - Duration: 1ms
+2024-11-10T07:53:56.454Z Request: GET /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T07:53:56.468Z Response: GET /api/users?limit=5&offset=0 - Status: 304 - Duration: 14ms
+2024-11-10T07:53:56.472Z Request: GET /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T07:53:56.483Z Response: GET /api/users?limit=5&offset=0 - Status: 304 - Duration: 11ms
+2024-11-10T07:56:15.896Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T07:56:15.897Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 1ms
+2024-11-10T07:56:15.898Z Request: POST /api/users/login - undefined - {}
+2024-11-10T07:56:16.035Z Response: POST /api/users/login - Status: 200 - Duration: 137ms
+2024-11-10T07:56:20.824Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:56:20.826Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 2ms
+2024-11-10T07:56:20.828Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:56:20.829Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T07:56:20.830Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:56:20.835Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:56:20.852Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 22ms
+2024-11-10T07:56:20.855Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 20ms
+2024-11-10T07:56:20.855Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:56:20.861Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:56:20.871Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 15ms
+2024-11-10T07:56:20.872Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 11ms
+2024-11-10T07:56:40.705Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:56:40.706Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T07:56:40.707Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:56:40.708Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T07:56:40.710Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:56:40.714Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:56:40.729Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 19ms
+2024-11-10T07:56:40.731Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 17ms
+2024-11-10T07:56:44.313Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:56:44.318Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:56:44.332Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 19ms
+2024-11-10T07:56:44.333Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 15ms
+2024-11-10T07:56:49.549Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:56:49.549Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T07:56:49.552Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:56:49.557Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:56:49.557Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T07:56:49.562Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:56:49.569Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 17ms
+2024-11-10T07:56:49.577Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 15ms
+2024-11-10T07:56:49.581Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T07:56:49.589Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T07:56:49.603Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 22ms
+2024-11-10T07:56:49.605Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 16ms
+2024-11-10T08:04:50.459Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T08:04:50.460Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T08:04:50.461Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T08:04:50.462Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T08:04:50.465Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T08:04:50.468Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T08:04:50.480Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 15ms
+2024-11-10T08:04:50.485Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 17ms
+2024-11-10T09:43:43.493Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:43:43.493Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T09:43:43.494Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:43:43.501Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T09:43:44.574Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productName&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productName","sortOrder":"asc"}
+2024-11-10T09:43:44.575Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productName&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T09:43:44.578Z Request: GET /api/products?limit=5&offset=0&sortBy=productName&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productName","sortOrder":"asc"}
+2024-11-10T09:43:44.583Z Response: GET /api/products?limit=5&offset=0&sortBy=productName&sortOrder=asc - Status: 200 - Duration: 5ms
+2024-11-10T09:43:45.471Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productName&sortOrder=desc - undefined - {"limit":"5","offset":"0","sortBy":"productName","sortOrder":"desc"}
+2024-11-10T09:43:45.472Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productName&sortOrder=desc - Status: 204 - Duration: 1ms
+2024-11-10T09:43:45.475Z Request: GET /api/products?limit=5&offset=0&sortBy=productName&sortOrder=desc - undefined - {"limit":"5","offset":"0","sortBy":"productName","sortOrder":"desc"}
+2024-11-10T09:43:45.480Z Response: GET /api/products?limit=5&offset=0&sortBy=productName&sortOrder=desc - Status: 304 - Duration: 5ms
+2024-11-10T09:43:47.246Z Request: GET /api/products?limit=5&offset=0&sortBy=productName&sortOrder=desc - undefined - {"limit":"5","offset":"0","sortBy":"productName","sortOrder":"desc"}
+2024-11-10T09:43:47.250Z Response: GET /api/products?limit=5&offset=0&sortBy=productName&sortOrder=desc - Status: 304 - Duration: 4ms
+2024-11-10T09:43:48.086Z Request: GET /api/products?limit=5&offset=0&sortBy=productName&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productName","sortOrder":"asc"}
+2024-11-10T09:43:48.093Z Response: GET /api/products?limit=5&offset=0&sortBy=productName&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T09:43:49.436Z Request: GET /api/products?limit=5&offset=0&sortBy=productName&sortOrder=desc - undefined - {"limit":"5","offset":"0","sortBy":"productName","sortOrder":"desc"}
+2024-11-10T09:43:49.441Z Response: GET /api/products?limit=5&offset=0&sortBy=productName&sortOrder=desc - Status: 304 - Duration: 5ms
+2024-11-10T09:43:52.175Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:43:52.175Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T09:43:52.176Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:43:52.176Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T09:43:52.178Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:43:52.180Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:43:52.185Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T09:43:52.186Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T09:43:52.188Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:43:52.190Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:43:52.195Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T09:43:52.196Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T09:48:50.759Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T09:48:50.765Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T09:48:50.766Z Request: POST /api/users/login - undefined - {}
+2024-11-10T09:48:50.862Z Response: POST /api/users/login - Status: 200 - Duration: 96ms
+2024-11-10T09:49:07.436Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:49:07.437Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T09:49:07.438Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:49:07.439Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T09:49:07.439Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:49:07.448Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:49:07.463Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 24ms
+2024-11-10T09:49:07.465Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 17ms
+2024-11-10T09:49:07.467Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:49:07.472Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:49:07.480Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 13ms
+2024-11-10T09:49:07.482Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 10ms
+2024-11-10T09:50:06.362Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:50:06.367Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 5ms
+2024-11-10T09:50:06.368Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:50:06.368Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T09:50:06.369Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:50:06.390Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:50:06.410Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:50:06.411Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T09:50:06.411Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:50:06.412Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T09:50:06.416Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 47ms
+2024-11-10T09:50:06.420Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:50:06.428Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 38ms
+2024-11-10T09:50:06.431Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:50:06.439Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 19ms
+2024-11-10T09:50:06.443Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 12ms
+2024-11-10T09:57:46.248Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:57:46.252Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 4ms
+2024-11-10T09:57:46.253Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:57:46.254Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T09:57:46.254Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:57:46.265Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:57:46.274Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:57:46.274Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T09:57:46.275Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:57:46.275Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T09:57:46.278Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 24ms
+2024-11-10T09:57:46.283Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T09:57:46.288Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 23ms
+2024-11-10T09:57:46.291Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T09:57:46.295Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 12ms
+2024-11-10T09:57:46.299Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 8ms
+2024-11-10T10:05:48.144Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:05:48.149Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 5ms
+2024-11-10T10:05:48.150Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:05:48.151Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T10:05:48.152Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:05:48.163Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:05:48.175Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:05:48.177Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 2ms
+2024-11-10T10:05:48.178Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:05:48.178Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:05:48.182Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 30ms
+2024-11-10T10:05:48.186Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:05:48.192Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 29ms
+2024-11-10T10:05:48.198Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 12ms
+2024-11-10T10:05:48.199Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:05:48.206Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 7ms
+2024-11-10T10:06:22.435Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T10:06:22.435Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 0ms
+2024-11-10T10:06:22.437Z Request: POST /api/users/login - undefined - {}
+2024-11-10T10:06:22.528Z Response: POST /api/users/login - Status: 200 - Duration: 91ms
+2024-11-10T10:06:30.221Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:06:30.222Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:06:30.224Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:06:30.225Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T10:06:30.226Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:06:30.232Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:06:30.246Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 14ms
+2024-11-10T10:06:30.248Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 22ms
+2024-11-10T10:06:30.249Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:06:30.253Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:06:30.261Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 12ms
+2024-11-10T10:06:30.262Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T10:06:41.132Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:06:41.133Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:06:41.136Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:06:41.137Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T10:06:41.138Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:06:41.144Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:06:41.154Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 16ms
+2024-11-10T10:06:41.158Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 14ms
+2024-11-10T10:06:41.159Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:06:41.162Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:06:41.170Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 11ms
+2024-11-10T10:06:41.173Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 11ms
+2024-11-10T10:07:04.721Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T10:07:04.722Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 1ms
+2024-11-10T10:07:04.724Z Request: POST /api/products/create - undefined - {}
+2024-11-10T10:07:11.095Z Response: POST /api/products/create - Status: 201 - Duration: 6371ms
+2024-11-10T10:07:11.100Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:07:11.101Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:07:11.103Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:07:11.112Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 9ms
+2024-11-10T10:15:30.942Z Request: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:15:30.944Z Response: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:15:30.948Z Request: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:15:30.954Z Response: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 6ms
+2024-11-10T10:20:54.971Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:20:54.972Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:20:54.974Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:20:54.975Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T10:20:54.975Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:20:54.979Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:20:54.985Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 10ms
+2024-11-10T10:20:54.986Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 200 - Duration: 7ms
+2024-11-10T10:20:55.755Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:20:55.758Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:20:55.764Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T10:20:55.765Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 7ms
+2024-11-10T10:21:22.059Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:21:22.059Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:21:22.060Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:21:22.060Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:21:22.062Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:21:22.068Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:21:22.073Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 11ms
+2024-11-10T10:21:22.076Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 8ms
+2024-11-10T10:21:22.776Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:21:22.779Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:21:22.784Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:21:22.785Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T10:21:30.010Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:21:30.010Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T10:21:30.011Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:21:30.012Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T10:21:30.013Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:21:30.015Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:21:30.020Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:21:30.021Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T10:21:30.759Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:21:30.761Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:21:30.765Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 6ms
+2024-11-10T10:21:30.766Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 5ms
+2024-11-10T10:22:24.743Z Request: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:22:24.744Z Response: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:22:24.747Z Request: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:22:24.754Z Response: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:22:55.709Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:22:55.709Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T10:22:55.710Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:22:55.711Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T10:22:55.712Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:22:55.715Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:22:55.721Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T10:22:55.722Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 7ms
+2024-11-10T10:22:55.764Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:22:55.766Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:22:55.774Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 10ms
+2024-11-10T10:22:55.775Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 9ms
+2024-11-10T10:23:05.212Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:23:05.213Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:23:05.217Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:23:05.224Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:23:07.141Z Request: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:23:07.142Z Response: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:23:07.147Z Request: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:23:07.155Z Response: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:24:54.951Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:24:54.951Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T10:24:54.952Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:24:54.952Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:24:54.954Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:24:54.956Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:24:54.961Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:24:54.962Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T10:24:55.751Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:24:55.753Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:24:55.756Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 5ms
+2024-11-10T10:24:55.757Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 4ms
+2024-11-10T10:25:25.663Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:25:25.664Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:25:25.664Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:25:25.665Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T10:25:25.666Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:25:25.669Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:25:25.674Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:25:25.675Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T10:25:25.747Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:25:25.749Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:25:25.754Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:25:25.755Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T10:26:38.753Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:26:38.753Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T10:26:38.754Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:26:38.754Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:26:38.758Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:26:38.762Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:26:38.774Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 16ms
+2024-11-10T10:26:38.783Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 21ms
+2024-11-10T10:26:38.840Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:26:38.845Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:26:38.853Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 13ms
+2024-11-10T10:26:38.855Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 10ms
+2024-11-10T10:26:58.607Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:26:58.608Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:26:58.608Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:26:58.608Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:26:58.610Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:26:58.613Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:26:58.619Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T10:26:58.620Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 7ms
+2024-11-10T10:26:58.749Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:26:58.752Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:26:58.756Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:26:58.756Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 4ms
+2024-11-10T10:27:00.458Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:27:00.460Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:27:00.465Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:27:00.466Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T10:27:00.749Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:27:00.751Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:27:00.756Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:27:00.756Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 5ms
+2024-11-10T10:27:06.485Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:27:06.485Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T10:27:06.486Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:27:06.487Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T10:27:06.488Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:27:06.490Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:27:06.496Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:27:06.499Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 9ms
+2024-11-10T10:27:06.739Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:27:06.743Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:27:06.760Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 21ms
+2024-11-10T10:27:06.763Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 20ms
+2024-11-10T10:27:30.872Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:27:30.873Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:27:30.876Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:27:30.876Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:27:30.877Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:27:30.887Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 10ms
+2024-11-10T10:27:30.888Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:27:30.899Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 11ms
+2024-11-10T10:27:31.738Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:27:31.742Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:27:31.747Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T10:27:31.748Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T10:27:33.245Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:27:33.247Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:27:33.254Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T10:27:33.255Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 8ms
+2024-11-10T10:27:33.827Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:27:33.830Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:27:33.837Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 10ms
+2024-11-10T10:27:33.839Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 9ms
+2024-11-10T10:28:12.288Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:12.288Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T10:28:12.289Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:12.289Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:28:12.291Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:12.293Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:12.297Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 6ms
+2024-11-10T10:28:12.298Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 5ms
+2024-11-10T10:28:12.749Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:12.751Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:12.756Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:28:12.757Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T10:28:27.202Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:27.203Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:28:27.203Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:27.203Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:28:27.205Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:27.208Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:27.213Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:28:27.214Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T10:28:27.752Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:27.755Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:27.759Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:28:27.759Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 4ms
+2024-11-10T10:28:35.125Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:35.126Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:28:35.126Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:35.126Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:28:35.128Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:35.131Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:35.137Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T10:28:35.138Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 7ms
+2024-11-10T10:28:35.751Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:35.754Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:35.759Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:28:35.760Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T10:28:53.846Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:53.846Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:28:53.846Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:53.846Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:28:53.850Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:53.852Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:53.856Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 6ms
+2024-11-10T10:28:53.857Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 5ms
+2024-11-10T10:28:54.749Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:54.752Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:54.758Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T10:28:54.759Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 7ms
+2024-11-10T10:28:57.088Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:57.091Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:57.100Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 12ms
+2024-11-10T10:28:57.102Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 11ms
+2024-11-10T10:28:57.752Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:28:57.754Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:28:57.758Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 6ms
+2024-11-10T10:28:57.759Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 5ms
+2024-11-10T10:29:16.718Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:29:16.718Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T10:29:16.719Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:29:16.719Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:29:16.720Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:29:16.723Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:29:16.727Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:29:16.728Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 5ms
+2024-11-10T10:29:16.747Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:29:16.750Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:29:16.758Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 11ms
+2024-11-10T10:29:16.759Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 9ms
+2024-11-10T10:29:19.947Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:29:19.950Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:29:19.955Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:29:19.957Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 7ms
+2024-11-10T10:29:20.765Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:29:20.768Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:29:20.772Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:29:20.772Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 4ms
+2024-11-10T10:29:33.179Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:29:33.180Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:29:33.180Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:29:33.180Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:29:33.182Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:29:33.185Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:29:33.190Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:29:33.190Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 5ms
+2024-11-10T10:29:33.191Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:29:33.193Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:29:33.199Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:29:33.200Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 7ms
+2024-11-10T10:29:33.817Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:29:33.821Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:29:33.827Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 10ms
+2024-11-10T10:29:33.828Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 7ms
+2024-11-10T10:29:33.833Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:29:33.837Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:29:33.843Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 10ms
+2024-11-10T10:29:33.844Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:30:05.675Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T10:30:05.675Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 0ms
+2024-11-10T10:30:05.677Z Request: POST /api/users/login - undefined - {}
+2024-11-10T10:30:05.752Z Response: POST /api/users/login - Status: 200 - Duration: 75ms
+2024-11-10T10:30:11.391Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:11.391Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T10:30:11.392Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:30:11.393Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T10:30:11.395Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:11.397Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:30:11.401Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 6ms
+2024-11-10T10:30:11.403Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:11.407Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 10ms
+2024-11-10T10:30:11.408Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:30:11.415Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 12ms
+2024-11-10T10:30:11.418Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 10ms
+2024-11-10T10:30:15.279Z Request: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:15.280Z Response: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:30:15.283Z Request: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:15.290Z Response: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:30:17.355Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:17.356Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:30:17.359Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:17.367Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:30:27.291Z Request: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:27.292Z Response: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:30:27.296Z Request: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:27.304Z Response: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:30:28.743Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:28.744Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:30:28.747Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:28.753Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 6ms
+2024-11-10T10:30:35.251Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:35.252Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:30:35.252Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:30:35.253Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T10:30:35.256Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:35.260Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:30:35.265Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T10:30:35.266Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 6ms
+2024-11-10T10:30:35.267Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:30:35.270Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:30:35.277Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 10ms
+2024-11-10T10:30:35.277Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 7ms
+2024-11-10T10:31:12.103Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:31:12.104Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T10:31:12.107Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:31:12.108Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T10:31:12.108Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:31:12.110Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:31:12.115Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 6ms
+2024-11-10T10:31:12.115Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 5ms
+2024-11-10T10:31:12.769Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:31:12.771Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:31:12.775Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 6ms
+2024-11-10T10:31:12.776Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 5ms
+2024-11-10T10:35:53.685Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:35:53.685Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T10:35:53.686Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:35:53.686Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:35:53.687Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:35:53.689Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:35:53.693Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 6ms
+2024-11-10T10:35:53.694Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 5ms
+2024-11-10T10:35:53.695Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:35:53.697Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:35:53.702Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:35:53.704Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 7ms
+2024-11-10T10:35:53.901Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:35:53.904Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:35:53.911Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 10ms
+2024-11-10T10:35:53.912Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 8ms
+2024-11-10T10:35:53.914Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:35:53.916Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:35:53.925Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 12ms
+2024-11-10T10:35:53.926Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 10ms
+2024-11-10T10:48:23.967Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T10:48:23.967Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 0ms
+2024-11-10T10:48:23.969Z Request: POST /api/users/login - undefined - {}
+2024-11-10T10:48:24.046Z Response: POST /api/users/login - Status: 200 - Duration: 78ms
+2024-11-10T10:48:28.511Z Request: OPTIONS /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T10:48:28.512Z Response: OPTIONS /api/users?limit=5&offset=0 - Status: 204 - Duration: 1ms
+2024-11-10T10:48:28.514Z Request: GET /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T10:48:28.519Z Response: GET /api/users?limit=5&offset=0 - Status: 304 - Duration: 6ms
+2024-11-10T10:48:28.520Z Request: GET /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T10:48:28.523Z Response: GET /api/users?limit=5&offset=0 - Status: 304 - Duration: 3ms
+2024-11-10T10:48:39.196Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:48:39.196Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T10:48:39.197Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:48:39.197Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:48:39.199Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:48:39.202Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:48:39.207Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T10:48:39.207Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 5ms
+2024-11-10T10:48:39.210Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:48:39.212Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:48:39.219Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T10:48:39.220Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 8ms
+2024-11-10T10:49:03.927Z Request: OPTIONS /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T10:49:03.927Z Response: OPTIONS /api/users?limit=5&offset=0 - Status: 204 - Duration: 0ms
+2024-11-10T10:49:03.928Z Request: GET /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T10:49:03.933Z Response: GET /api/users?limit=5&offset=0 - Status: 304 - Duration: 5ms
+2024-11-10T10:49:03.935Z Request: GET /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T10:49:03.939Z Response: GET /api/users?limit=5&offset=0 - Status: 304 - Duration: 4ms
+2024-11-10T10:49:07.417Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:49:07.417Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T10:49:07.418Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:49:07.418Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 0ms
+2024-11-10T10:49:07.421Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:49:07.423Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:49:07.427Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 6ms
+2024-11-10T10:49:07.428Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 5ms
+2024-11-10T10:49:07.429Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T10:49:07.432Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T10:49:07.436Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 7ms
+2024-11-10T10:49:07.436Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 4ms
+2024-11-10T11:01:27.424Z Request: OPTIONS /api/users/signup - undefined - {}
+2024-11-10T11:01:27.424Z Response: OPTIONS /api/users/signup - Status: 204 - Duration: 0ms
+2024-11-10T11:01:27.425Z Request: POST /api/users/signup - undefined - {}
+2024-11-10T11:01:27.427Z Response: POST /api/users/signup - Status: 400 - Duration: 2ms
+2024-11-10T11:01:39.924Z Request: OPTIONS /api/users/signup - undefined - {}
+2024-11-10T11:01:39.924Z Response: OPTIONS /api/users/signup - Status: 204 - Duration: 0ms
+2024-11-10T11:01:39.926Z Request: POST /api/users/signup - undefined - {}
+2024-11-10T11:01:39.927Z Response: POST /api/users/signup - Status: 400 - Duration: 1ms
+2024-11-10T11:02:03.294Z Request: OPTIONS /api/users/signup - undefined - {}
+2024-11-10T11:02:03.294Z Response: OPTIONS /api/users/signup - Status: 204 - Duration: 0ms
+2024-11-10T11:02:03.296Z Request: POST /api/users/signup - undefined - {}
+2024-11-10T11:02:03.297Z Response: POST /api/users/signup - Status: 400 - Duration: 1ms
+2024-11-10T11:02:09.014Z Request: OPTIONS /api/users/signup - undefined - {}
+2024-11-10T11:02:09.014Z Response: OPTIONS /api/users/signup - Status: 204 - Duration: 0ms
+2024-11-10T11:02:09.016Z Request: POST /api/users/signup - undefined - {}
+2024-11-10T11:02:09.096Z Response: POST /api/users/signup - Status: 201 - Duration: 80ms
+2024-11-10T11:34:47.911Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T11:34:47.916Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T11:34:47.918Z Request: POST /api/users/login - undefined - {}
+2024-11-10T11:34:48.025Z Response: POST /api/users/login - Status: 200 - Duration: 107ms
+2024-11-10T12:21:14.135Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T12:21:14.139Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T12:21:14.140Z Request: POST /api/users/login - undefined - {}
+2024-11-10T12:21:14.240Z Response: POST /api/users/login - Status: 200 - Duration: 100ms
+2024-11-10T12:21:18.656Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:21:18.656Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T12:21:18.657Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T12:21:18.658Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T12:21:18.659Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:21:18.666Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T12:21:18.680Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 22ms
+2024-11-10T12:21:18.682Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 16ms
+2024-11-10T12:21:18.684Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:21:18.687Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T12:21:18.694Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 11ms
+2024-11-10T12:21:18.695Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 8ms
+2024-11-10T12:21:44.749Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:21:44.750Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T12:21:44.751Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T12:21:44.752Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T12:21:44.752Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:21:44.755Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T12:21:44.761Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T12:21:44.762Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 7ms
+2024-11-10T12:21:44.764Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:21:44.767Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T12:21:44.774Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 10ms
+2024-11-10T12:21:44.775Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 8ms
+2024-11-10T12:22:24.964Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:22:24.965Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 1ms
+2024-11-10T12:22:24.966Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:22:29.394Z Response: POST /api/products/create - Status: 201 - Duration: 4428ms
+2024-11-10T12:22:29.412Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:22:29.412Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T12:22:29.416Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:22:29.425Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 9ms
+2024-11-10T12:28:48.956Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:28:48.960Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 4ms
+2024-11-10T12:28:48.961Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:28:52.361Z Response: POST /api/products/create - Status: 201 - Duration: 3400ms
+2024-11-10T12:28:52.369Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:28:52.370Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 2ms
+2024-11-10T12:28:52.372Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:28:52.384Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 12ms
+2024-11-10T12:32:54.644Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:32:54.649Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 5ms
+2024-11-10T12:32:54.651Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:33:00.141Z Response: POST /api/products/create - Status: 201 - Duration: 5490ms
+2024-11-10T12:33:00.159Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:33:00.161Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 2ms
+2024-11-10T12:33:00.164Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:33:00.172Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 8ms
+2024-11-10T12:42:33.431Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:42:33.436Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 5ms
+2024-11-10T12:42:33.437Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:42:33.457Z Response: POST /api/products/create - Status: 500 - Duration: 20ms
+2024-11-10T12:46:27.695Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:46:27.699Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 5ms
+2024-11-10T12:46:27.700Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:46:30.806Z Response: POST /api/products/create - Status: 201 - Duration: 3106ms
+2024-11-10T12:46:30.810Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:46:30.811Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T12:46:30.814Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:46:30.823Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 10ms
+2024-11-10T12:47:20.614Z Request: OPTIONS /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"10","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:47:20.620Z Response: OPTIONS /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 7ms
+2024-11-10T12:47:20.621Z Request: GET /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"10","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:47:20.639Z Response: GET /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 18ms
+2024-11-10T12:47:23.570Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:47:23.572Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 2ms
+2024-11-10T12:47:23.575Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:47:23.585Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 10ms
+2024-11-10T12:47:34.955Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:47:34.956Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 1ms
+2024-11-10T12:47:34.957Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:47:34.964Z Response: POST /api/products/create - Status: 400 - Duration: 7ms
+2024-11-10T12:47:50.226Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:47:50.227Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 1ms
+2024-11-10T12:47:50.228Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:47:50.234Z Response: POST /api/products/create - Status: 500 - Duration: 6ms
+2024-11-10T12:48:42.432Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:48:42.436Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 4ms
+2024-11-10T12:48:42.437Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:48:47.919Z Response: POST /api/products/create - Status: 201 - Duration: 5482ms
+2024-11-10T12:48:47.940Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:48:47.941Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T12:48:47.943Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:48:47.953Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 10ms
+2024-11-10T12:50:41.051Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:50:41.055Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 3ms
+2024-11-10T12:50:41.056Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:50:44.259Z Response: POST /api/products/create - Status: 201 - Duration: 3204ms
+2024-11-10T12:50:44.276Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:50:44.277Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T12:50:44.279Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:50:44.290Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 11ms
+2024-11-10T12:50:47.043Z Request: OPTIONS /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"10","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:50:47.045Z Response: OPTIONS /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 2ms
+2024-11-10T12:50:47.048Z Request: GET /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"10","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:50:47.060Z Response: GET /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 12ms
+2024-11-10T12:50:50.030Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:50:50.032Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 2ms
+2024-11-10T12:50:50.035Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:50:50.043Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T12:50:53.727Z Request: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:50:53.728Z Response: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T12:50:53.730Z Request: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:50:53.737Z Response: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 7ms
+2024-11-10T12:50:56.073Z Request: OPTIONS /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"10","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:50:56.074Z Response: OPTIONS /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T12:50:56.078Z Request: GET /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"10","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:50:56.086Z Response: GET /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 8ms
+2024-11-10T12:51:37.493Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:51:37.497Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 4ms
+2024-11-10T12:51:37.498Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:51:41.493Z Response: POST /api/products/create - Status: 201 - Duration: 3995ms
+2024-11-10T12:51:41.511Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:51:41.511Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T12:51:41.513Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:51:41.525Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 12ms
+2024-11-10T12:51:46.440Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:51:46.446Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 6ms
+2024-11-10T12:51:47.968Z Request: OPTIONS /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"10","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:51:47.970Z Response: OPTIONS /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 2ms
+2024-11-10T12:51:47.974Z Request: GET /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"10","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:51:47.985Z Response: GET /api/products?limit=5&offset=10&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 11ms
+2024-11-10T12:52:32.066Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:52:32.070Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 4ms
+2024-11-10T12:52:32.071Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:52:38.164Z Response: POST /api/products/create - Status: 201 - Duration: 6093ms
+2024-11-10T12:52:38.184Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:52:38.185Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T12:52:38.186Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:52:38.202Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 16ms
+2024-11-10T12:53:14.213Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:53:14.216Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 3ms
+2024-11-10T12:53:14.217Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:53:16.619Z Response: POST /api/products/create - Status: 201 - Duration: 2402ms
+2024-11-10T12:53:16.625Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:53:16.625Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T12:53:16.627Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:53:16.638Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 11ms
+2024-11-10T12:53:23.374Z Request: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:53:23.374Z Response: OPTIONS /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T12:53:23.376Z Request: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"5","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:53:23.381Z Response: GET /api/products?limit=5&offset=5&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 5ms
+2024-11-10T12:53:25.244Z Request: OPTIONS /api/products?limit=5&offset=15&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"15","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:53:25.246Z Response: OPTIONS /api/products?limit=5&offset=15&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 2ms
+2024-11-10T12:53:25.250Z Request: GET /api/products?limit=5&offset=15&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"15","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:53:25.258Z Response: GET /api/products?limit=5&offset=15&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 8ms
+2024-11-10T12:58:36.948Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:58:36.953Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 5ms
+2024-11-10T12:58:36.954Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T12:58:36.975Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 21ms
+2024-11-10T12:58:48.945Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T12:58:48.945Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 0ms
+2024-11-10T12:58:48.947Z Request: POST /api/products/create - undefined - {}
+2024-11-10T12:58:48.960Z Response: POST /api/products/create - Status: 500 - Duration: 13ms
+2024-11-10T13:00:03.628Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T13:00:03.631Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 4ms
+2024-11-10T13:00:03.632Z Request: POST /api/products/create - undefined - {}
+2024-11-10T13:00:03.648Z Response: POST /api/products/create - Status: 500 - Duration: 16ms
+2024-11-10T13:00:44.471Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T13:00:44.474Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 4ms
+2024-11-10T13:00:44.475Z Request: POST /api/products/create - undefined - {}
+2024-11-10T13:00:48.658Z Response: POST /api/products/create - Status: 201 - Duration: 4183ms
+2024-11-10T13:00:48.675Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T13:00:48.676Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T13:00:48.679Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T13:00:48.693Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 14ms
+2024-11-10T13:00:53.722Z Request: OPTIONS /api/products?limit=5&offset=15&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"15","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T13:00:53.723Z Response: OPTIONS /api/products?limit=5&offset=15&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T13:00:53.725Z Request: GET /api/products?limit=5&offset=15&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"15","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T13:00:53.730Z Response: GET /api/products?limit=5&offset=15&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 5ms
+2024-11-10T13:00:56.271Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T13:00:56.272Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T13:00:56.273Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T13:00:56.279Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 6ms
+2024-11-10T13:02:00.216Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T13:02:00.219Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 4ms
+2024-11-10T13:02:00.221Z Request: POST /api/products/create - undefined - {}
+2024-11-10T13:02:09.795Z Response: POST /api/products/create - Status: 201 - Duration: 9574ms
+2024-11-10T13:02:09.814Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T13:02:09.815Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T13:02:09.816Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T13:02:09.829Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 13ms
+2024-11-10T13:02:14.383Z Request: OPTIONS /api/products?limit=5&offset=15&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"15","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T13:02:14.383Z Response: OPTIONS /api/products?limit=5&offset=15&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T13:02:14.385Z Request: GET /api/products?limit=5&offset=15&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"15","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T13:02:14.391Z Response: GET /api/products?limit=5&offset=15&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 6ms
+2024-11-10T13:02:16.893Z Request: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T13:02:16.894Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T13:02:16.897Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T13:02:16.906Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms

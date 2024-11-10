@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "esModuleInterop": true, // Enables compatibility with CommonJS and ES Modules
+      "strict": true,
+      "skipLibCheck": true,
+    },
+    "include": [
+      "types.d.ts",   // Add this line to include your custom types
+      "./**/*.ts"
+    ],
+    "exclude": ["node_modules"]
+  }
+  
