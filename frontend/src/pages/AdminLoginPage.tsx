@@ -12,7 +12,8 @@ const AdminPage: React.FC = () => {
   const onFinish = async (values: any) => {
     setLoading(true);
     try {
-      const response: any = await axios.post("http://localhost:5000/api/users/login", values);
+      const apiUrl = process.env.REACT_APP_API_HOST + "/api";
+      const response: any = await axios.post(`${apiUrl}/users/login`, values);
       message.success("Login successful");
       localStorage.setItem("token", response.data.token); // Save token in local storage
       localStorage.setItem("active", response.data.user.active);

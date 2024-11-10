@@ -12,7 +12,8 @@ const SignUpPage: React.FC = () => {
   const onFinish = async (values: any) => {
     setLoading(true);
     try {
-      await axios.post("http://localhost:5000/api/users/signup", values);
+      const apiUrl = process.env.REACT_APP_API_HOST;
+      await axios.post(`${apiUrl}/api/users/signup`, values);
       message.success("Sign Up successful!");
       navigate('/login')
     } catch (error) {

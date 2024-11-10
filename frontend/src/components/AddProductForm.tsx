@@ -38,16 +38,6 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
       form.setFieldsValue( {}); // Set initial data for Edit mode
       setFile(null); // Reset file state for Add mode
     }
-    /* if (visible) {
-      // If in Add mode (no initialData), reset form
-      if (isCreating) {
-        form.resetFields(initialData || {});
-        setFile(null); // Reset file state for Add mode
-      } else {
-        form.setFieldsValue(initialData); // Set initial data for Edit mode
-        setFile(null); // Optional: clear the file state on opening modal for Edit mode
-      }
-    } */
   }, [visible, form, isCreating, initialData]);
 
 
