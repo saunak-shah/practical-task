@@ -4,7 +4,6 @@ import "../css/Home.css"; // Import the new CSS file
 
 const Home = () => {
   const active = localStorage.getItem("active") || "";
-console.log(active)
   return (
     <div className="main-container">
       <ul className="menu">

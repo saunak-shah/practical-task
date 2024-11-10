@@ -53,8 +53,6 @@ export const signUp = async (req: Request, res: Response): Promise<void> => {
   try {
     // check email already exists
     const checkUserEmail = await User.findOne({ emailID });
-    console.log(checkUserEmail);
-    console.log("9999999999999999");
 
     if (checkUserEmail) {
       res.status(400).json({ message: "Email already exists" });
@@ -99,7 +97,6 @@ export const signUp = async (req: Request, res: Response): Promise<void> => {
 };
 
 export const login = async (req: Request, res: Response): Promise<void> => {
-  console.log("iiiiiiiiiiiii")
   const { emailID, password } = req.body;
 
   // Basic validation
@@ -209,11 +206,7 @@ export const updateUserStatus = async (
   const { userId, active } = req.body;
 
   try {
-    console.log(userId)
-    console.log(req.params)
-    console.log(req.body)
     const user: any = await User.findById(userId);
-    console.log(user)
     if (!user) {
       res.status(404).json({ message: "User not found" });
       return;

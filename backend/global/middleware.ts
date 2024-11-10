@@ -32,15 +32,12 @@ function verifyJwt(token: string): JwtPayload | undefined {
 const userMiddleware: any = (req: Request, res: Response, next: NextFunction) => {
     const { path } = req;
 
-    console.log("jwt===============", req.path)
     // Skip middleware for login and signup routes
     if (path === "/api/users/login" || path === "/api/users/signup") {
         return next();
     }
 
     const jwtToken = req.get("Authorization");
-    console.log("jwtToken===============", jwtToken)
-
     
     if (!jwtToken) {
         return res.status(401).json({ error: "Unauthorized: No token provided" });

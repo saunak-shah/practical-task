@@ -30,16 +30,11 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
   let isCreating = !initialData;
 
   useEffect(() => {
-    console.log("ddddddddddddd",visible)
-    console.log("isCreating",isCreating)
-    console.log(initialData)
     if (initialData && !isCreating) {
-      console.log("111111111111111")
 
       form.setFieldsValue(initialData); // Set form values for editing
       setFile(null); // Reset file state for Add mode
     } else {
-      console.log("88888888888")
       form.setFieldsValue( {}); // Set initial data for Edit mode
       setFile(null); // Reset file state for Add mode
     }
@@ -66,8 +61,6 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
     try {
       setIsLoading(true); // Show loading when process starts
       const values = await form.validateFields();
-      console.log("file===========", file);
-      console.log("values===========", values);
 
       const formData = new FormData();
 

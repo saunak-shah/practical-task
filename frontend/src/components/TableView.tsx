@@ -32,7 +32,6 @@ const TableView: React.FC<TableViewProps> = ({
   const handleChange: TableProps<any>["onChange"] = (pagination, filters, sorter) => {
 
     const singleSorter = Array.isArray(sorter) ? sorter[0] : sorter;
-    console.log("singleSorter.order", singleSorter.order)
 
     if (singleSorter && singleSorter.field) {
         setSortField(singleSorter.field as string);

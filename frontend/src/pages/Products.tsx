@@ -150,7 +150,6 @@ const Products = () => {
         apiUrl += `&createdAtFrom=${startDate}&createdAtTo=${endDate}`;
       }
 
-      console.log("fetch select value", selectedValue);
       if (selectedValue) {
         apiUrl += `&productId=${selectedValue}`;
       }
@@ -180,7 +179,6 @@ const Products = () => {
       const apiHost = process.env.REACT_APP_API_HOST;
       let apiUrl = `${apiHost}/api/products?limit=${limit}&offset=${offset}&filter_by=true`;
 
-      console.log("selectedValue", selectedValue);
       if (selectedValue) {
         apiUrl += `&productId=${selectedValue}`;
       }
@@ -302,7 +300,6 @@ const Products = () => {
     sorter: true,
   };
 
-  console.log(active)
   if (active === "false") {
     columns.push(userNameColumn);
   } else{

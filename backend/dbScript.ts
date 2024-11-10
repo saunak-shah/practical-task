@@ -19,7 +19,6 @@ const insertSampleData = async () => {
       .catch((err) => console.log("MongoDb connection error", err));
 
     let password = await bcrypt.hash("Admin@123", 10);
-    console.log(password);
     // Sample user data
     const sampleUsers = [
       {

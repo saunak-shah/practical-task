@@ -18,7 +18,6 @@ const LoginPage: React.FC = () => {
       localStorage.setItem("token", response.data.token); // Save token in local storage
       localStorage.setItem("active", response.data.user.active);
 
-      console.log(response.data)
       if(response.data.user.active){
         setActive(true);
       } else{

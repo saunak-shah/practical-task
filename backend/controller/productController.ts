@@ -78,7 +78,6 @@ export const updateProduct = async (
   req: Request,
   res: Response
 ): Promise<void> => {
-  console.log("update=============", req.body);
   const form = new IncomingForm();
 
   const { fields, files }: { fields: any; files: any } = await new Promise(
@@ -89,9 +88,7 @@ export const updateProduct = async (
       });
     }
   );
-  console.log("fields=========", fields);
 
-  console.log("fields=========", fields);
   const productName = fields.productName[0];
   const productDesc = fields.productDesc[0];
   if (!productName || !productDesc) {
@@ -100,10 +97,8 @@ export const updateProduct = async (
   }
 
   const file = files.image?.[0];
-  console.log("file========", file);
 
   const { productId } = req.params;
-  console.log(productId);
 
   try {
     const product = await Product.findById(productId);
@@ -117,14 +112,12 @@ export const updateProduct = async (
       imageUrl = await uploadFileToFirebase(file);
     }
     // File upload to Firebase Storage
-    console.log("imageUrl ============", imageUrl);
 
     // Update product details
     product.productName = productName || product.productName;
     product.productDesc = productDesc || product.productDesc;
     product.imageURL = imageUrl || product.imageURL;
 
-    console.log("yyyyyyyyyyyy", product);
     await product.save();
     res.status(200).json({ message: "Product updated successfully", product });
   } catch (error) {
@@ -136,7 +129,6 @@ export const deleteProduct = async (
   req: Request,
   res: Response
 ): Promise<void> => {
-  console.log("88888888888", req.params);
   const { productId } = req.params;
 
   try {
@@ -161,8 +153,6 @@ export const getAllProducts = async (
   res: Response
 ): Promise<void> => {
   try {
-    console.log("getAllProducts", req.query);
-    console.log(req.user)
     // Pagination parameters
     const page = parseInt(req.query.page as string) || 1; // default to page 1
     const limit = parseInt(req.query.limit as string) || 10; // default to 10 items per page
@@ -180,16 +170,12 @@ export const getAllProducts = async (
       ? moment(req.query.createdAtTo as string).endOf("day").format()
       : null;
 
-    console.log("createdAtFrom", createdAtFrom, createdAtTo);
-
-    console.log("productId", typeof req.query.productId);
 
     // Build filter object
     const filter: any = {};
     // Filter parameters
     let productName = null;
     if (req.query.productId && req.query.productId !== 'None') {
-      console.log("iiiiiiiiiiiiiiii");
       const productId = req.query.productId as string;
       const product = await Product.findById(productId);
       productName = product?.productName;
@@ -197,8 +183,6 @@ export const getAllProducts = async (
     if (productName) {
       filter.productName = { $regex: new RegExp(productName, "i") }; // case-insensitive match
     }
-    console.log("filter============= %j", filter);
-
     if (createdAtFrom || createdAtTo) {
       filter.createdAt = {};
       if (createdAtFrom) filter.createdAt.$gte = createdAtFrom;
@@ -206,10 +190,8 @@ export const getAllProducts = async (
     }
 
     let fieldsToReturn = ""; // Specify the fields you need
-    console.log("filter by=============", req.query.filter_by);
 
     if (req.query.filter_by) {
-      console.log("filter by=============", req.query.filter_by);
       fieldsToReturn = "productName createdAt";
     }
 

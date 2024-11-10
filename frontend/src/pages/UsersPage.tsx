@@ -38,7 +38,6 @@ const Users = () => {
       };
 
       const response = await axios.get(apiUrl, { headers });
-      console.log(response)
       if (response.data && response.data.users) {
         setTotalUserCount(response.data.pagination.totalItems);
         setUsers(response.data.users);
@@ -59,7 +58,6 @@ const Users = () => {
 
   const handleStatusChange = async (value: boolean, userId: string) => {
     try {
-        console.log(userId)
       const apiHost = process.env.REACT_APP_API_HOST;
       const url = `${apiHost}/api/users/updateUserStatus`;
       const headers = {
