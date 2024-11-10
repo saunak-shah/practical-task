@@ -6,6 +6,7 @@
 #Backend
 backend/node_modules/
 backend/dist/
+backend/api.log
 
 #Frontend
 frontend/node_modules/
