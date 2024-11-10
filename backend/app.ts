@@ -6,7 +6,7 @@ import userRoutes from "./routes/userRoutes";
 import productRoutes from "./routes/productRoutes";
 import compression from "compression";
 import cors from "cors";
-import { userMiddleware } from "./global/middleware";
+import { userMiddleware, digestAuth } from "./global/middleware";
 import winston from "winston";
 
 dotenv.config();
@@ -50,6 +50,7 @@ app.use(cors({
 
 // custom middleware for token verification
 app.use(userMiddleware);
+app.use(digestAuth);
 
 // Connect MongoDB
 mongoose

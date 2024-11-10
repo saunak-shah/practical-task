@@ -838,3 +838,228 @@
 2024-11-10T13:02:16.894Z Response: OPTIONS /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
 2024-11-10T13:02:16.897Z Request: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"5","offset":"0","sortBy":"productID","sortOrder":"asc"}
 2024-11-10T13:02:16.906Z Response: GET /api/products?limit=5&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T16:13:39.579Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T16:13:39.583Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T16:13:39.584Z Request: POST /api/users/login - undefined - {}
+2024-11-10T16:13:39.714Z Response: POST /api/users/login - Status: 200 - Duration: 130ms
+2024-11-10T16:13:45.697Z Request: OPTIONS /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T16:13:45.698Z Response: OPTIONS /api/users?limit=5&offset=0 - Status: 204 - Duration: 1ms
+2024-11-10T16:13:45.701Z Request: OPTIONS /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T16:13:45.702Z Response: OPTIONS /api/users?limit=5&offset=0 - Status: 204 - Duration: 0ms
+2024-11-10T16:13:45.703Z Request: GET /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T16:13:45.726Z Response: GET /api/users?limit=5&offset=0 - Status: 200 - Duration: 23ms
+2024-11-10T16:13:45.728Z Request: GET /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T16:13:45.741Z Response: GET /api/users?limit=5&offset=0 - Status: 304 - Duration: 13ms
+2024-11-10T16:13:49.186Z Request: OPTIONS /api/users?limit=5&offset=5 - undefined - {"limit":"5","offset":"5"}
+2024-11-10T16:13:49.188Z Response: OPTIONS /api/users?limit=5&offset=5 - Status: 204 - Duration: 2ms
+2024-11-10T16:13:49.190Z Request: GET /api/users?limit=5&offset=5 - undefined - {"limit":"5","offset":"5"}
+2024-11-10T16:13:49.202Z Response: GET /api/users?limit=5&offset=5 - Status: 200 - Duration: 12ms
+2024-11-10T16:13:54.045Z Request: OPTIONS /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T16:13:54.047Z Response: OPTIONS /api/users?limit=5&offset=0 - Status: 204 - Duration: 2ms
+2024-11-10T16:13:54.050Z Request: GET /api/users?limit=5&offset=0 - undefined - {"limit":"5","offset":"0"}
+2024-11-10T16:13:54.060Z Response: GET /api/users?limit=5&offset=0 - Status: 304 - Duration: 10ms
+2024-11-10T16:14:42.088Z Request: OPTIONS /api/users?limit=10&offset=0 - undefined - {"limit":"10","offset":"0"}
+2024-11-10T16:14:42.089Z Response: OPTIONS /api/users?limit=10&offset=0 - Status: 204 - Duration: 1ms
+2024-11-10T16:14:42.092Z Request: GET /api/users?limit=10&offset=0 - undefined - {"limit":"10","offset":"0"}
+2024-11-10T16:14:42.101Z Response: GET /api/users?limit=10&offset=0 - Status: 200 - Duration: 9ms
+2024-11-10T16:14:48.571Z Request: OPTIONS /api/users/updateUserStatus - undefined - {}
+2024-11-10T16:14:48.572Z Response: OPTIONS /api/users/updateUserStatus - Status: 204 - Duration: 1ms
+2024-11-10T16:14:48.575Z Request: PUT /api/users/updateUserStatus - undefined - {}
+2024-11-10T16:14:48.597Z Response: PUT /api/users/updateUserStatus - Status: 200 - Duration: 22ms
+2024-11-10T16:14:48.603Z Request: OPTIONS /api/users?limit=10&offset=0 - undefined - {"limit":"10","offset":"0"}
+2024-11-10T16:14:48.604Z Response: OPTIONS /api/users?limit=10&offset=0 - Status: 204 - Duration: 1ms
+2024-11-10T16:14:48.606Z Request: GET /api/users?limit=10&offset=0 - undefined - {"limit":"10","offset":"0"}
+2024-11-10T16:14:48.616Z Response: GET /api/users?limit=10&offset=0 - Status: 200 - Duration: 10ms
+2024-11-10T16:15:05.382Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T16:15:05.383Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 1ms
+2024-11-10T16:15:05.385Z Request: POST /api/users/login - undefined - {}
+2024-11-10T16:15:05.487Z Response: POST /api/users/login - Status: 200 - Duration: 102ms
+2024-11-10T16:15:09.461Z Request: OPTIONS /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"10","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T16:15:09.461Z Response: OPTIONS /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 0ms
+2024-11-10T16:15:09.462Z Request: OPTIONS /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T16:15:09.463Z Response: OPTIONS /api/products?limit=20&offset=0&filter_by=true - Status: 204 - Duration: 1ms
+2024-11-10T16:15:09.464Z Request: GET /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"10","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T16:15:09.468Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T16:15:09.480Z Response: GET /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 16ms
+2024-11-10T16:15:09.481Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 200 - Duration: 13ms
+2024-11-10T16:15:09.483Z Request: GET /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"10","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T16:15:09.488Z Request: GET /api/products?limit=20&offset=0&filter_by=true - undefined - {"limit":"20","offset":"0","filter_by":"true"}
+2024-11-10T16:15:09.502Z Response: GET /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 19ms
+2024-11-10T16:15:09.503Z Response: GET /api/products?limit=20&offset=0&filter_by=true - Status: 304 - Duration: 15ms
+2024-11-10T16:15:32.013Z Request: OPTIONS /api/products/create - undefined - {}
+2024-11-10T16:15:32.013Z Response: OPTIONS /api/products/create - Status: 204 - Duration: 0ms
+2024-11-10T16:15:32.016Z Request: POST /api/products/create - undefined - {}
+2024-11-10T16:15:34.795Z Response: POST /api/products/create - Status: 201 - Duration: 2779ms
+2024-11-10T16:15:34.820Z Request: OPTIONS /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"10","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T16:15:34.821Z Response: OPTIONS /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T16:15:34.823Z Request: GET /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"10","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T16:15:34.833Z Response: GET /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 10ms
+2024-11-10T16:15:39.044Z Request: OPTIONS /api/products?limit=10&offset=10&sortBy=productID&sortOrder=asc - undefined - {"limit":"10","offset":"10","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T16:15:39.045Z Response: OPTIONS /api/products?limit=10&offset=10&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 1ms
+2024-11-10T16:15:39.048Z Request: GET /api/products?limit=10&offset=10&sortBy=productID&sortOrder=asc - undefined - {"limit":"10","offset":"10","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T16:15:39.059Z Response: GET /api/products?limit=10&offset=10&sortBy=productID&sortOrder=asc - Status: 200 - Duration: 11ms
+2024-11-10T16:15:46.373Z Request: OPTIONS /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"10","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T16:15:46.375Z Response: OPTIONS /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - Status: 204 - Duration: 2ms
+2024-11-10T16:15:46.377Z Request: GET /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - undefined - {"limit":"10","offset":"0","sortBy":"productID","sortOrder":"asc"}
+2024-11-10T16:15:46.386Z Response: GET /api/products?limit=10&offset=0&sortBy=productID&sortOrder=asc - Status: 304 - Duration: 9ms
+2024-11-10T17:19:35.546Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T17:19:35.554Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 9ms
+2024-11-10T17:19:35.558Z Request: POST /api/users/login - undefined - {}
+2024-11-10T17:19:35.580Z Response: POST /api/users/login - Status: 400 - Duration: 23ms
+2024-11-10T17:19:59.596Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T17:19:59.597Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 1ms
+2024-11-10T17:19:59.600Z Request: POST /api/users/login - undefined - {}
+2024-11-10T17:19:59.602Z Response: POST /api/users/login - Status: 400 - Duration: 2ms
+2024-11-10T17:22:36.640Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T17:22:36.642Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 2ms
+2024-11-10T17:22:36.646Z Request: POST /api/users/login - undefined - {}
+2024-11-10T17:22:36.649Z Response: POST /api/users/login - Status: 400 - Duration: 3ms
+2024-11-10T17:24:54.869Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T17:24:54.878Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 10ms
+2024-11-10T17:24:54.880Z Request: POST /api/users/login - undefined - {}
+2024-11-10T17:24:54.905Z Response: POST /api/users/login - Status: 500 - Duration: 25ms
+2024-11-10T17:26:47.955Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T17:26:47.963Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 9ms
+2024-11-10T17:26:47.965Z Request: POST /api/users/login - undefined - {}
+2024-11-10T17:26:47.996Z Response: POST /api/users/login - Status: 500 - Duration: 31ms
+2024-11-10T17:38:53.922Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T17:38:53.930Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 9ms
+2024-11-10T17:38:53.933Z Request: POST /api/users/login - undefined - {}
+2024-11-10T17:38:53.961Z Response: POST /api/users/login - Status: 500 - Duration: 28ms
+2024-11-10T17:40:29.586Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T17:40:29.596Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 11ms
+2024-11-10T17:40:29.598Z Request: POST /api/users/login - undefined - {}
+2024-11-10T17:40:29.631Z Response: POST /api/users/login - Status: 500 - Duration: 33ms
+2024-11-10T17:57:17.435Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T17:57:17.441Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T17:57:17.443Z Request: POST /api/users/login - undefined - {}
+2024-11-10T17:57:17.463Z Response: POST /api/users/login - Status: 500 - Duration: 21ms
+2024-11-10T17:58:20.799Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T17:58:20.805Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T17:58:20.807Z Request: POST /api/users/login - undefined - {}
+2024-11-10T17:58:20.821Z Response: POST /api/users/login - Status: 500 - Duration: 15ms
+2024-11-10T17:58:43.753Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T17:58:43.758Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T17:58:43.759Z Request: POST /api/users/login - undefined - {}
+2024-11-10T17:58:43.777Z Response: POST /api/users/login - Status: 500 - Duration: 18ms
+2024-11-10T18:00:43.297Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:00:43.303Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 7ms
+2024-11-10T18:00:43.305Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:00:43.319Z Response: POST /api/users/login - Status: 500 - Duration: 14ms
+2024-11-10T18:02:40.637Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:02:40.647Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 10ms
+2024-11-10T18:02:40.649Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:02:40.666Z Response: POST /api/users/login - Status: 500 - Duration: 17ms
+2024-11-10T18:05:46.684Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:05:46.689Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T18:05:46.690Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:10:18.942Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:10:18.947Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T18:10:18.948Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:13:22.864Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:13:22.870Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T18:13:22.871Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:13:22.888Z Response: POST /api/users/login - Status: 500 - Duration: 17ms
+2024-11-10T18:15:57.879Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:15:57.885Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T18:15:57.886Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:15:57.903Z Response: POST /api/users/login - Status: 500 - Duration: 17ms
+2024-11-10T18:19:31.812Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:19:31.816Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T18:19:31.817Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:21:42.927Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:21:42.931Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T18:21:42.932Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:22:40.959Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:22:40.965Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T18:22:40.966Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:25:51.081Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:25:51.085Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T18:25:51.086Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:27:51.397Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:27:51.402Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T18:27:51.403Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:28:30.398Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:28:30.403Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T18:28:30.403Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:30:24.411Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:30:24.416Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T18:30:24.417Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:31:03.577Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:31:03.582Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T18:31:03.583Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:31:03.598Z Response: POST /api/users/login - Status: 400 - Duration: 15ms
+2024-11-10T18:31:58.644Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:31:58.648Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 4ms
+2024-11-10T18:31:58.649Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:31:58.663Z Response: POST /api/users/login - Status: 400 - Duration: 14ms
+2024-11-10T18:35:04.875Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:35:04.880Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T18:35:04.881Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:35:04.895Z Response: POST /api/users/login - Status: 400 - Duration: 14ms
+2024-11-10T18:46:19.971Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:46:19.976Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T18:46:19.977Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:46:19.990Z Response: POST /api/users/login - Status: 400 - Duration: 13ms
+2024-11-10T18:51:08.576Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:51:08.582Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 7ms
+2024-11-10T18:51:08.583Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:51:08.597Z Response: POST /api/users/login - Status: 400 - Duration: 14ms
+2024-11-10T18:56:37.407Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:56:37.411Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 4ms
+2024-11-10T18:56:37.412Z Request: POST /api/users/login - undefined - {}
+2024-11-10T18:57:00.288Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T18:57:00.293Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T18:57:00.295Z Request: POST /api/users/login - undefined - {}
+2024-11-10T19:21:14.296Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T19:21:14.302Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T19:21:14.303Z Request: POST /api/users/login - undefined - {}
+2024-11-10T19:26:25.712Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T19:26:25.713Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 1ms
+2024-11-10T19:26:25.715Z Request: POST /api/users/login - undefined - {}
+2024-11-10T19:28:22.187Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T19:28:22.192Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T19:28:22.193Z Request: POST /api/users/login - undefined - {}
+2024-11-10T19:33:40.023Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T19:33:40.027Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 4ms
+2024-11-10T19:33:40.029Z Request: POST /api/users/login - undefined - {}
+2024-11-10T19:34:30.648Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T19:34:30.652Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T19:34:30.653Z Request: POST /api/users/login - undefined - {}
+2024-11-10T20:03:21.983Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T20:03:21.987Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 4ms
+2024-11-10T20:03:21.988Z Request: POST /api/users/login - undefined - {}
+2024-11-10T20:04:55.721Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T20:04:55.726Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T20:04:55.727Z Request: POST /api/users/login - undefined - {}
+2024-11-10T20:12:55.829Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T20:12:55.833Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T20:12:55.834Z Request: POST /api/users/login - undefined - {}
+2024-11-10T20:13:14.742Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T20:13:14.743Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 1ms
+2024-11-10T20:13:14.744Z Request: POST /api/users/login - undefined - {}
+2024-11-10T20:14:34.337Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T20:14:34.342Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T20:14:34.343Z Request: POST /api/users/login - undefined - {}
+2024-11-10T20:18:09.436Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T20:18:09.441Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T20:18:09.442Z Request: POST /api/users/login - undefined - {}
+2024-11-10T20:18:31.862Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T20:18:31.866Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T20:18:31.867Z Request: POST /api/users/login - undefined - {}
+2024-11-10T20:18:31.979Z Response: POST /api/users/login - Status: 400 - Duration: 111ms
+2024-11-10T20:18:56.134Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T20:18:56.135Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 1ms
+2024-11-10T20:18:56.138Z Request: POST /api/users/login - undefined - {}
+2024-11-10T20:18:56.237Z Response: POST /api/users/login - Status: 400 - Duration: 99ms
+2024-11-10T20:19:36.260Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T20:19:36.265Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T20:19:36.268Z Request: POST /api/users/login - undefined - {}
+2024-11-10T20:19:36.388Z Response: POST /api/users/login - Status: 200 - Duration: 120ms
+2024-11-10T20:43:51.331Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T20:43:51.336Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T20:43:51.337Z Request: POST /api/users/login - undefined - {}
+2024-11-10T20:43:51.366Z Response: POST /api/users/login - Status: 200 - Duration: 29ms
+2024-11-10T20:44:57.434Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T20:44:57.440Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
+2024-11-10T20:44:57.441Z Request: POST /api/users/login - undefined - {}
