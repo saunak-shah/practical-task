@@ -1,0 +1,34 @@
+/* Home.css */
+
+/* Main container */
+.main-container {
+    padding: 20px;
+    background-color: #f0f2f5;
+  }
+  
+  /* Button styling */
+  .button-class {
+    width: 200px;
+    cursor: pointer;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  /* Table container */
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  /* Filter section */
+  .filter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Modal delete confirmation */
+  .modal-confirm {
+    text-align: center;
+  }
+  
