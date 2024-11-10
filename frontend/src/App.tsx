@@ -8,7 +8,6 @@ import {
   Navigate,
 } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
-import AdminLoginPage from "./pages/AdminLoginPage";
 import SignUpPage from "./pages/SignupPage";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
@@ -34,7 +33,6 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignUpPage />} />
-            <Route path="/adminLogin" element={<AdminLoginPage />} />
             <Route path="/" element={token ? <Home /> : <Navigate to="/login" />} />
             <Route path="/products" element={token ? <Products /> : <Navigate to="/login" />} />
             <Route path="/users" element={token ? <Users /> : <Navigate to="/login" />} />

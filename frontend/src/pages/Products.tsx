@@ -6,7 +6,6 @@ import TableView from "../components/TableView";
 import { pageSize } from "../global/constant";
 import AddProductForm from "../components/AddProductForm";
 import DeleteModal from "../components/DeleteModal";
-import FilterSection from "../components/FilterSection";
 import { Dayjs } from "dayjs";
 import "../css/Home.css"; // Import the new CSS file
 
@@ -313,11 +312,6 @@ const Products = () => {
         onCancel={() => setDeleteModalVisibility(false)}
         onConfirm={deleteProduct}
       />
-      {/*       <FilterSection
-        onFilterChange={setSelectedValue}
-        onDateChange={fetchData}
-        productsData={productsData}
-      /> */}
       <div className="filter-section">
         {active === "false" && (
           <Space>
