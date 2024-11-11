@@ -1063,3 +1063,6 @@
 2024-11-10T20:44:57.434Z Request: OPTIONS /api/users/login - undefined - {}
 2024-11-10T20:44:57.440Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 6ms
 2024-11-10T20:44:57.441Z Request: POST /api/users/login - undefined - {}
+2024-11-10T21:36:15.404Z Request: OPTIONS /api/users/login - undefined - {}
+2024-11-10T21:36:15.409Z Response: OPTIONS /api/users/login - Status: 204 - Duration: 5ms
+2024-11-10T21:36:15.411Z Request: POST /api/users/login - undefined - {}

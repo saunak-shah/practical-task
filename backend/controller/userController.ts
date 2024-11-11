@@ -117,11 +117,11 @@ export const login = async (req: Request, res: Response): Promise<void> => {
     }
 
     // Compare the password with the hashed password
-    /* const isPasswordValid = await bcrypt.compare(password, user.password);
+    const isPasswordValid = await bcrypt.compare(password, user.password);
     if (!isPasswordValid) {
       res.status(400).json({ message: "Invalid email or password" });
       return;
-    } */
+    }
 
     // Generate a JWT token
     const token = jwt.sign(
@@ -129,11 +129,6 @@ export const login = async (req: Request, res: Response): Promise<void> => {
       `${process.env.JWT_SECRET_KEY}`,
       { expiresIn: "7d" }
     );
-
-    /* if(user.active){
-      res.status(400).json({ message: "Admin users are not authorized to access this website." });
-      return;
-    } */
 
     res.status(200).json({
       message: "Login successful",
