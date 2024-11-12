@@ -158,7 +158,7 @@ export const getAllUsers = async (
     const skip = (page - 1) * limit;
 
     // Sorting parameters
-    const sortField = (req.query.sortField as string) || "createdAt"; // default to createdAt field
+    const sortField = (req.query.sortBy as string) || "createdAt"; // default to createdAt field
     const sortOrder = req.query.sortOrder === "desc" ? -1 : 1; // sort order: -1 for descending, 1 for ascending
 
     const createdAtFrom = req.query.createdAtFrom

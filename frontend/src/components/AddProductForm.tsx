@@ -9,14 +9,8 @@ import {
   Button,
 } from "antd";
 import { UploadOutlined } from "@ant-design/icons";
+import { AddProductFormProps } from "../interfaces/ProductInterface";
 
-interface AddProductFormProps {
-  form: FormInstance<any>;
-  visible: boolean;
-  onCancel: () => void;
-  onSubmit: (product: any) => Promise<void>;
-  initialData: any;
-}
 
 const AddProductForm: React.FC<AddProductFormProps> = ({
   form,

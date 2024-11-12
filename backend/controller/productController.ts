@@ -158,8 +158,9 @@ export const getAllProducts = async (
     const limit = parseInt(req.query.limit as string) || 10; // default to 10 items per page
     const skip = (req.query.offset) ? parseInt(req.query.offset as string) : (page - 1) * limit;
 
+    console.log("==============req.query", req.query)
     // Sorting parameters
-    const sortField = (req.query.sortField as string) || "createdAt"; // default to createdAt field
+    const sortField = (req.query.sortBy as string) || "createdAt"; // default to createdAt field
     const sortOrder = req.query.sortOrder === "desc" ? -1 : 1; // sort order: -1 for descending, 1 for ascending
 
     const createdAtFrom = req.query.createdAtFrom
@@ -195,6 +196,7 @@ export const getAllProducts = async (
       fieldsToReturn = "productName createdAt";
     }
 
+    console.log("sort============", sortField, sortOrder)
     const products = await Product.find(filter)
       .sort({ [sortField]: sortOrder }) // dynamic sorting
       .skip(skip)
