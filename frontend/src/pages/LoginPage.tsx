@@ -5,10 +5,50 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { LoginFormValues, LoginResponse } from "../interfaces/LoginInterface";
 import { saveToLocalStorage } from "../global/common";
+import crypto from 'crypto';
 
 const LoginPage: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+
+
+  /* const getProtectedResource = async (): Promise<Response> => {
+    return fetch('http://localhost:5000/protected-resource', {
+        method: 'GET',
+        credentials: 'include', // Important for sending cookies or authentication headers
+    });
+  }; */
+  const loginWithDigest = async (username: string, password: string) => {
+    const response = await axios.get('http://localhost:5000/protected-resource', {
+      headers: { 'Authorization': `Digest username="${username}"` },
+      validateStatus: (status) => status === 401 || status === 200 // Allow 401 and 200 statuses
+    });
+  
+    if (response.status === 401) {
+      // Extract the nonce from the WWW-Authenticate header
+      const nonce = response.headers['www-authenticate'].match(/nonce="([^"]+)"/)[1];
+      console.log(nonce)
+      const ha1 = crypto.createHash('md5').update(`${username}:${'Protected Area'}:${password}`).digest('hex');
+      console.log("ha1ha1ha1ha1ha1ha1ha1ha1ha1ha1", ha1)
+
+      const ha2 = crypto.createHash('md5').update(`GET:/protected-resource`).digest('hex');
+      console.log("ha2ha2ha2ha2ha2ha2ha2ha2ha2ha2ha2ha2", ha2)
+      
+      const responseHash = crypto.createHash('md5').update(`${ha1}:${nonce}:00000001:${ha2}`).digest('hex');
+      console.log("responseHashresponseHash", responseHash)
+      
+      const result = await axios.get('http://localhost:5000/protected-resource', {
+        headers: {
+          'Authorization': `Digest username="${username}", realm="Protected Area", nonce="${nonce}", uri="/protected-resource", response="${responseHash}", qop="auth", nc="00000001", cnonce="cnonce123"`
+        }
+      });
+  
+      if (result.status === 200) {
+        console.log("Access granted to protected resource.");
+      }
+    }
+  };
+  
 
   const onFinish = async (values: LoginFormValues) => {
     setLoading(true);
@@ -20,16 +60,17 @@ const LoginPage: React.FC = () => {
       return;
     }
     try {
-      const response: LoginResponse = await axios.post(`${apiUrl}/api/users/login`, values);
 
-      if (response && response.data) {
-        message.success("Login successful");
-        saveToLocalStorage("token", response.data.token);
-        saveToLocalStorage("active", String(response.data.user.active));
-        navigate("/");
-      } else {
-        message.error("Unexpected response.");
-      }
+      
+    const res = await loginWithDigest(values.emailID, values.password);
+    console.log("res=====================", res)
+
+
+
+    // const res = await getProtectedResource();
+
+
+      
     } catch (error: any) {
       if (axios.isAxiosError(error)) {
         if (error.response?.status === 401) {
