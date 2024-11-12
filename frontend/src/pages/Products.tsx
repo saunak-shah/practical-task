@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { DatePicker, Space, Button, Select, Modal, Form, message } from "antd";
 import axios from "axios";
 import { DeleteOutlined, PlusOutlined, EditOutlined } from "@ant-design/icons";
@@ -8,22 +8,16 @@ import AddProductForm from "../components/AddProductForm";
 import DeleteModal from "../components/DeleteModal";
 import { Dayjs } from "dayjs";
 import "../css/Home.css";
+import { Product } from "../interfaces/ProductInterface";
 
 type DateRange = [Dayjs | null, Dayjs | null] | null;
 const { RangePicker } = DatePicker;
 const { Option } = Select;
 
-interface Product {
-  _id: string;
-  productName: string;
-  productDesc: string;
-  imageURL: string;
-}
-
 const Products = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
-  const [sortField, setSortField] = useState("productID");
-  const [sortOrder, setSortOrder] = useState("asc");
+  const [sortField, setSortField] = useState("createdAt");
+  const [sortOrder, setSortOrder] = useState("desc");
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
@@ -40,10 +34,11 @@ const Products = () => {
   const token = localStorage.getItem("token");
   const active = localStorage.getItem("active") === "true";
 
+  const apiHost = process.env.REACT_APP_API_HOST;
+
   const fetchData = async (offset: number, limit: number, searchKey = null) => {
     setLoading(true);
     try {
-      const apiHost = process.env.REACT_APP_API_HOST;
       let apiUrl = `${apiHost}/api/products?limit=${limit}&offset=${offset}&sortBy=${sortField}&sortOrder=${sortOrder}`;
 
       if (dateRange.length === 2) {
@@ -66,7 +61,35 @@ const Products = () => {
     }
   };
 
-  const handleFilterSubmit = () => fetchData(offset, pageSize);
+  const fetchproductsData = async () => {
+    try {
+      const limit = 20;
+      const offset = 0;
+      const apiHost = process.env.REACT_APP_API_HOST;
+      let apiUrl = `${apiHost}/api/products?limit=${limit}&offset=${offset}&filter_by=true`;
+
+      if (selectedValue) {
+        apiUrl += `&productId=${selectedValue}`;
+      }
+
+      let headers = {
+        "Content-Type": "application/json",
+        Authorization: token,
+      };
+      const response = await axios.get(apiUrl, { headers });
+
+      if (response.data && response.data.products.length > 0) {
+        setProductData(response.data.products);
+      } else {
+        setProductData([]);
+      }
+    } catch (error) {
+      console.error("Error during API call:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
 
   const handleDateChange = (dates: DateRange) => {
     setDateRange(dates ? dates.map(date => date?.format("YYYY-MM-DD") ?? null) : []);
@@ -77,12 +100,12 @@ const Products = () => {
     setDataToDelete(record);
   };
 
-  const addProduct = () => {
+  const addProduct = useCallback(() => {
     form.resetFields();
     setCurrentProduct(null);
     setIsModalVisible(true);
     setIsEdit(false);
-  };
+  }, [form]); // Only recreate this function if `form` changes
 
   const editProduct = (product: Product) => {
     setCurrentProduct(product);
@@ -179,6 +202,9 @@ const Products = () => {
 
   useEffect(() => {
     fetchData(0, pageSize);
+    if (!selectedValue) {
+      fetchproductsData();
+    }
   }, [selectedValue, sortField, sortOrder, dateRange]);
 
   return (
@@ -191,9 +217,9 @@ const Products = () => {
         />
       )}
       <div className="filter-section">
+
         <Space>
-          Filter by Name:
-          <Select
+        <Select
             onChange={setSelectedValue}
             showSearch
             placeholder="Select Product"
@@ -209,13 +235,7 @@ const Products = () => {
               </Option>
             ))}
           </Select>
-        </Space>
-        <Space>
-          Filter by Date:
           <RangePicker onChange={handleDateChange} />
-          <Button type="primary" onClick={handleFilterSubmit}>
-            Submit
-          </Button>
         </Space>
       </div>
       {active && (
@@ -237,13 +257,16 @@ const Products = () => {
           fetchData={fetchData}
         />
       </div>
-      <AddProductForm
+      {isModalVisible && (
+        <AddProductForm
         form={form}
         visible={isModalVisible}
         onCancel={() => setIsModalVisible(false)}
         onSubmit={handleAddOrEditProduct}
         initialData={currentProduct}
       />
+      )}
+      
     </div>
   );
 };

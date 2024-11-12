@@ -26,3 +26,27 @@
     background-color: #d9363e;
   }
   
+
+  .main-header-custom {
+    background-color: #fff;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    height: 64px; /* Adjust height as needed */
+  }
+  
+  .header-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-menu {
+    flex-grow: 1;
+  }
+  
+  .logout-button {
+    margin-left: auto; /* Pushes the button to the far right */
+  }
+  

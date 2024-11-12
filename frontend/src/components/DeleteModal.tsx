@@ -7,8 +7,11 @@ interface DeleteModalProps {
   onConfirm: () => void;
 }
 
-const DeleteModal: React.FC<DeleteModalProps> = ({ visible, onCancel, onConfirm }) => (
-  <Modal
+const DeleteModal: React.FC<DeleteModalProps> = ({
+  visible, onCancel, onConfirm 
+}) => {
+  return (
+    <Modal
     title="Confirm Deletion"
     visible={visible}
     onOk={onConfirm}
@@ -18,6 +21,7 @@ const DeleteModal: React.FC<DeleteModalProps> = ({ visible, onCancel, onConfirm 
   >
     <p>Are you sure you want to delete this product?</p>
   </Modal>
-);
+  )
+}
 
 export default DeleteModal;

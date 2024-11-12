@@ -1,11 +1,12 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import "../css/Header.css"; // CSS for styling the header
+import { Layout, Menu, Button } from 'antd';
+import { Link, useNavigate } from 'react-router-dom';
+import '../css/Header.css';
+import { saveToLocalStorage } from "../global/common";
 
 const Header = () => {
   const navigate = useNavigate();
-
-  // Logout function to clear token and cookies
+  const active = localStorage.getItem("active") === "true";
+  
   const handleLogout = () => {
     // Clear token from localStorage
     localStorage.removeItem("token");
@@ -20,13 +21,38 @@ const Header = () => {
     navigate("/login");
   };
 
+  const mainMenuItems = [
+    {
+      key: 'home',
+      label: <Link to="/products" className="header-menu-item">Home</Link>,
+    },
+    ...(!active
+       ? [
+          {
+            key: "users",
+            label: <Link to="/users" className="header-menu-item">Users</Link>,
+          },
+        ] : []
+    )
+  ];
+
+
   return (
-    <header className="header">
-      <h1 className="header-title"></h1>
-      <button className="logout-button" onClick={handleLogout}>
+    <Layout.Header className="main-header-custom">
+      {/* Menu for navigation links */}
+      <Menu mode="horizontal" className="main-menu">
+        {mainMenuItems.map(item => (
+          <Menu.Item key={item.key}>
+            {item.label}
+          </Menu.Item>
+        ))}
+      </Menu>
+
+      {/* Logout Button aligned to the right */}
+      <Button type="primary" onClick={handleLogout} className="logout-button">
         Logout
-      </button>
-    </header>
+      </Button>
+    </Layout.Header>
   );
 };
 
