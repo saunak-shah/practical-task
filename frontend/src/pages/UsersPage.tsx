@@ -2,15 +2,11 @@ import React, { useEffect, useState } from "react";
 import {
   Switch,
   message,
-  Table
 } from "antd";
 import axios from "axios";
-import { DeleteOutlined, PlusOutlined, EditOutlined } from "@ant-design/icons";
 import TableView from "../components/TableView";
 import { pageSize } from "../global/constant";
-import DeleteModal from "../components/DeleteModal";
 import "../css/Home.css"; // Import the new CSS file
-import { ColumnsType } from "antd/es/table";
 
 const Users = () => {
   const [users, setUsers] = useState([]);
@@ -18,7 +14,6 @@ const Users = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalUserCount, setTotalUserCount] = useState(0);
   const [offset, setOffset] = useState(0);
-  const [selectedValue, setSelectedValue] = useState<string | undefined>(undefined);
 
   const token = localStorage.getItem("token");
 
@@ -27,10 +22,6 @@ const Users = () => {
     try {
       const apiHost = process.env.REACT_APP_API_HOST;
       let apiUrl = `${apiHost}/api/users?limit=${limit}&offset=${offset}`;
-
-      if (selectedValue) {
-        apiUrl += `&productId=${selectedValue}`;
-      }
 
       const headers = {
         "Content-Type": "application/json",
