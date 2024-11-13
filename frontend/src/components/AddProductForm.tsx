@@ -18,7 +18,6 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
 }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [file, setFile] = useState<File | null>(null);
-  const [fileList, setFileList] = useState<any[]>([]); // Holds the file list for the Upload component
   let isCreating = !initialData;
   const [fileList, setFileList] = useState<any[]>([]); // Holds the file list for the Upload component
 
