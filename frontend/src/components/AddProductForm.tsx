@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { Modal, Input, Form, Upload, message, Button } from "antd";
+import {
+  Modal,
+  Input,
+  Form,
+  Upload,
+  Button,
+} from "antd";
 import { UploadOutlined } from "@ant-design/icons";
 import { AddProductFormProps } from "../interfaces/ProductInterface";
 
@@ -14,6 +20,7 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
   const [file, setFile] = useState<File | null>(null);
   const [fileList, setFileList] = useState<any[]>([]); // Holds the file list for the Upload component
   let isCreating = !initialData;
+  const [fileList, setFileList] = useState<any[]>([]); // Holds the file list for the Upload component
 
   useEffect(() => {
     if (initialData && !isCreating) {
@@ -22,7 +29,7 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
       setFileList([
         {
           uid: "-1",
-          name: initialData.productName, // Placeholder name
+          name: initialData.imageURL, // Placeholder name
           status: "done",
           url: initialData.imageURL, // URL of the existing image for preview
         },
@@ -34,6 +41,7 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
       setFile(null);
     }
   }, [visible, form, isCreating, initialData]);
+
 
   const handleFileChange = ({ fileList: newFileList }: any) => {
     setFileList(newFileList); // Update file list for Upload component
@@ -50,15 +58,12 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
       const values = await form.validateFields();
 
       const formData = new FormData();
-
-      // Append form values to formData
       for (const key in values) {
         if (values.hasOwnProperty(key)) {
           formData.append(key, values[key]);
         }
       }
 
-      // If editing and no new image, skip appending the file to FormData
       if (file) {
         formData.append("image", file);
       }
@@ -110,16 +115,19 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
           <Upload
             listType="picture-card"
             fileList={fileList}
-            beforeUpload={() => false} // Prevent automatic upload
+            beforeUpload={() => false}
             onChange={handleFileChange}
             onPreview={(file) => window.open(file.url || file.thumbUrl, "_blank")}
             onRemove={() => {
-              setFile(null); // Reset file state when the file is removed
-              return true; // Allow file to be removed
+              setFile(null); 
+              return true;
             }}
           >
+            {/* Only show upload button if there is no image preview */}
             {fileList.length === 0 && (
-              <Button icon={<UploadOutlined />}>Upload Image</Button>
+              <div>
+                <Button icon={<UploadOutlined />}>Upload Image</Button>
+              </div>
             )}
           </Upload>
         </Form.Item>
@@ -129,3 +137,4 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
 };
 
 export default AddProductForm;
+

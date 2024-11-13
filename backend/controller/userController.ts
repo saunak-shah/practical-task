@@ -127,11 +127,6 @@ export const login = async (req: Request, res: Response): Promise<void> => {
       { expiresIn: "7d" }
     );
 
-    /* if(user.active){
-      res.status(400).json({ message: "Admin users are not authorized to access this website." });
-      return;
-    } */
-
     res.status(200).json({
       message: "Login successful",
       token,
@@ -176,6 +171,11 @@ export const getAllUsers = async (
       if (createdAtFrom) filter.createdAt.$gte = createdAtFrom;
       if (createdAtTo) filter.createdAt.$lte = createdAtTo;
     }
+
+    if (req.query.isUser) {
+      filter.active = (req.query.isUser === "active")
+    }
+
     const users = await User.find(filter)
       .sort({ [sortField]: sortOrder }) // dynamic sorting
       .skip(skip)
