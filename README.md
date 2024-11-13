@@ -9,23 +9,35 @@ frontend: Contains the frontend code.
 
 **Backend Setup:**
 
-  1. Navigate to the backend folder: 
-        **cd backend**
-  2. Install dependencies: 
-      **npm install**
-  3. Start the backend server: 
-      **npm run start**
-  4. Run the database script to add the admin user: 
-      **node dist/dbScript.js**
+1. Navigate to the backend folder: 
+        
+  **cd backend**
+  
+2. Install dependencies: 
+      
+  **npm install**
+  
+3. Start the backend server: 
+      
+  **npm run start**
+  
+4. Run the database script to add the admin user: 
+      
+  **node dist/dbScript.js**
 
 **Frontend Setup**
 
-  1.Navigate to the frontend folder: 
-      **cd frontend**
-  2. Install dependencies:
-     **npm install**
-  3. Start the frontend server: 
-      **npm run start**
+1.Navigate to the frontend folder:
+      
+  **cd frontend**
+  
+2. Install dependencies:
+     
+  **npm install**
+  
+3. Start the frontend server: 
+      
+  **npm run start**
 
 
   **Admin Login Credentials**

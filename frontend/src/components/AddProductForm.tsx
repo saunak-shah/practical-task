@@ -9,7 +9,6 @@ import {
 import { UploadOutlined } from "@ant-design/icons";
 import { AddProductFormProps } from "../interfaces/ProductInterface";
 
-
 const AddProductForm: React.FC<AddProductFormProps> = ({
   form,
   visible,
@@ -19,6 +18,7 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
 }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [file, setFile] = useState<File | null>(null);
+  const [fileList, setFileList] = useState<any[]>([]); // Holds the file list for the Upload component
   let isCreating = !initialData;
   const [fileList, setFileList] = useState<any[]>([]); // Holds the file list for the Upload component
 
@@ -44,14 +44,13 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
 
 
   const handleFileChange = ({ fileList: newFileList }: any) => {
-    setFileList(newFileList);
+    setFileList(newFileList); // Update file list for Upload component
     if (newFileList.length > 0) {
-      setFile(newFileList[0]?.originFileObj || null);
+      setFile(newFileList[0]?.originFileObj || null); // Update file state if a new file is selected
     } else {
-      setFile(null);
+      setFile(null); // Reset file if no file is selected
     }
   };
-
 
   const handleSubmit = async () => {
     try {
@@ -79,14 +78,12 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
     }
   };
 
-  // Handling form reset when cancel button is clicked
   const handleCancel = () => {
-    form.resetFields(); // Reset the form fields
-    setFile(null); // Reset the file state
+    form.resetFields();
+    setFile(null);
     setFileList([]);
-    onCancel(); // Call the onCancel prop to close the modal
+    onCancel();
   };
-
 
   return (
     <Modal

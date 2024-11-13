@@ -1,7 +1,6 @@
 import { Request, Response } from "express";
 import bcrypt from "bcryptjs";
 import { User } from "../models/User";
-import { ROLE_ACCESS } from "../global/constant";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 import moment from 'moment';
