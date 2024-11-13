@@ -9,6 +9,7 @@ import cors from "cors";
 import { userMiddleware } from "./global/middleware";
 import winston from "winston";
 
+
 dotenv.config();
 
 const app = express();
