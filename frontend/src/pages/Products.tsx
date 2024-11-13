@@ -100,13 +100,13 @@ const Products = () => {
     setDataToDelete(record);
   };
 
-  const addProduct = useCallback(() => {
+  const addProduct = () => {
     form.resetFields();
     setCurrentProduct(null);
     setIsModalVisible(true);
     setIsEdit(false);
-  }, [form]); // Only recreate this function if `form` changes
-
+  };
+  
   const editProduct = (product: Product) => {
     setCurrentProduct(product);
     form.setFieldsValue(product);
@@ -264,6 +264,7 @@ const Products = () => {
         onCancel={() => setIsModalVisible(false)}
         onSubmit={handleAddOrEditProduct}
         initialData={currentProduct}
+        loading={loading} // Pass the loading state to AddProductForm
       />
       )}
       

@@ -13,4 +13,5 @@ export interface AddProductFormProps {
   onCancel: () => void;
   onSubmit: (product: any) => Promise<void>;
   initialData: any;
+  loading: boolean; // Add this new prop
 }

@@ -1,14 +1,7 @@
 import { Request, Response } from "express";
-import bcrypt from "bcryptjs";
 import { Product } from "../models/Product";
-import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
-import { Fields, Files, IncomingForm } from "formidable";
-import { v4 as uuidv4 } from "uuid";
-import admin from "firebase-admin";
-import fs from "fs"; // Ensure 'fs' is imported for reading the file from disk
-import path from "path";
-import config from "../config/firebase.config";
+import { IncomingForm } from "formidable";
 import { uploadFileToFirebase } from "../controller/FileUploadController";
 import moment from 'moment';
 import { User } from "../models/User";

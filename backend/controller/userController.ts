@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
 import bcrypt from "bcryptjs";
 import { User } from "../models/User";
-import { ROLE_ACCESS } from "../global/constant";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
+import moment from 'moment';
 
 // Load environment configuration
 dotenv.config();
@@ -162,10 +162,11 @@ export const getAllUsers = async (
     const sortOrder = req.query.sortOrder === "desc" ? -1 : 1; // sort order: -1 for descending, 1 for ascending
 
     const createdAtFrom = req.query.createdAtFrom
-      ? new Date(req.query.createdAtFrom as string)
+      ? moment(req.query.createdAtFrom as string).startOf("day").format()
       : null;
-    const createdAtTo = req.query.createdAtTo
-      ? new Date(req.query.createdAtTo as string)
+
+      const createdAtTo = req.query.createdAtTo
+      ? moment(req.query.createdAtTo as string).endOf("day").format()
       : null;
 
     // filter object
