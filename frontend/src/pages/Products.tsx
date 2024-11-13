@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useCallback } from "react";
-import { DatePicker, Space, Button, Select, Modal, Form, message } from "antd";
+import { useEffect, useState, useCallback } from "react";
+import { DatePicker, Space, Button, Select, Form, message } from "antd";
 import axios from "axios";
 import { DeleteOutlined, PlusOutlined, EditOutlined } from "@ant-design/icons";
 import TableView from "../components/TableView";
@@ -36,17 +36,17 @@ const Products = () => {
 
   const apiHost = process.env.REACT_APP_API_HOST;
 
-  const fetchData = async (offset: number, limit: number, searchKey = null) => {
+  const fetchData = useCallback(async (offset = 0, limit = 20, searchKey = null) => {
     setLoading(true);
     try {
       let apiUrl = `${apiHost}/api/products?limit=${limit}&offset=${offset}&sortBy=${sortField}&sortOrder=${sortOrder}`;
-
+  
       if (dateRange.length === 2) {
         const [startDate, endDate] = dateRange;
         apiUrl += `&createdAtFrom=${startDate}&createdAtTo=${endDate}`;
       }
       if (selectedValue) apiUrl += `&productId=${selectedValue}`;
-
+  
       const response = await axios.get(apiUrl, {
         headers: { "Content-Type": "application/json", Authorization: token },
       });
@@ -59,9 +59,9 @@ const Products = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [apiHost, sortField, sortOrder, dateRange, selectedValue, token]);
 
-  const fetchproductsData = async () => {
+  const fetchproductsData = useCallback(async () => {
     try {
       const limit = 20;
       const offset = 0;
@@ -72,7 +72,7 @@ const Products = () => {
         apiUrl += `&productId=${selectedValue}`;
       }
 
-      let headers = {
+      const headers = {
         "Content-Type": "application/json",
         Authorization: token,
       };
@@ -88,7 +88,16 @@ const Products = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [selectedValue, token]);
+
+  useEffect(() => {
+    fetchData(0, pageSize);
+    if (!selectedValue) {
+      fetchproductsData();
+    }
+  }, [fetchData, fetchproductsData, selectedValue, sortField, sortOrder, dateRange]);
+  
+  
 
 
   const handleDateChange = (dates: DateRange) => {
@@ -123,7 +132,7 @@ const Products = () => {
         : "/api/products/create";
       if (isEdit && !formData.get("image")) formData.delete("image");
 
-      const response = await axios({
+      await axios({
         method: isEdit ? "put" : "post",
         url: `${apiHost}${endpoint}`,
         data: formData,
@@ -200,13 +209,6 @@ const Products = () => {
       : [{ title: "User Name", dataIndex: "createdBy", key: "createdBy", sorter: true }]),
   ];
 
-  useEffect(() => {
-    fetchData(0, pageSize);
-    if (!selectedValue) {
-      fetchproductsData();
-    }
-  }, [selectedValue, sortField, sortOrder, dateRange]);
-
   return (
     <div className="main-container">
       {isDeleteModalVisible && (
@@ -264,6 +266,7 @@ const Products = () => {
         onCancel={() => setIsModalVisible(false)}
         onSubmit={handleAddOrEditProduct}
         initialData={currentProduct}
+        loading={loading}
       />
       )}
       

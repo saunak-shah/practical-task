@@ -49,8 +49,6 @@ const userMiddleware: any = (req: Request, res: Response, next: NextFunction) =>
         return res.status(403).json({ error: "Forbidden: Invalid token" });
     }
 
-    console.log("tokenData", tokenData);
-
     // Attach token data to request for downstream use
     (req as any).user = tokenData;
     

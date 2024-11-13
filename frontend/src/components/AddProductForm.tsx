@@ -3,9 +3,7 @@ import {
   Modal,
   Input,
   Form,
-  FormInstance,
   Upload,
-  message,
   Button,
 } from "antd";
 import { UploadOutlined } from "@ant-design/icons";
@@ -22,49 +20,62 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
   const [isLoading, setIsLoading] = useState(false);
   const [file, setFile] = useState<File | null>(null);
   let isCreating = !initialData;
+  const [fileList, setFileList] = useState<any[]>([]); // Holds the file list for the Upload component
 
   useEffect(() => {
     if (initialData && !isCreating) {
-
-      form.setFieldsValue(initialData); // Set form values for editing
-      setFile(null); // Reset file state for Add mode
+      // Set form values and file for edit mode
+      form.setFieldsValue(initialData);
+      setFileList([
+        {
+          uid: "-1",
+          name: initialData.imageURL, // Placeholder name
+          status: "done",
+          url: initialData.imageURL, // URL of the existing image for preview
+        },
+      ]);
     } else {
-      form.setFieldsValue( {}); // Set initial data for Edit mode
-      setFile(null); // Reset file state for Add mode
+      // Reset values for add mode
+      form.setFieldsValue({});
+      setFileList([]);
+      setFile(null);
     }
   }, [visible, form, isCreating, initialData]);
 
 
-  const handleFileChange = ({ fileList }: any) => {
-    const selectedFile = fileList[0]?.originFileObj || null;
-    setFile(selectedFile); // Update file state with the selected file
+  const handleFileChange = ({ fileList: newFileList }: any) => {
+    setFileList(newFileList);
+    if (newFileList.length > 0) {
+      setFile(newFileList[0]?.originFileObj || null);
+    } else {
+      setFile(null);
+    }
   };
 
 
   const handleSubmit = async () => {
     try {
-      setIsLoading(true); // Show loading when process starts
+      setIsLoading(true);
       const values = await form.validateFields();
 
       const formData = new FormData();
-
-      // Append form values to formData
       for (const key in values) {
         if (values.hasOwnProperty(key)) {
           formData.append(key, values[key]);
         }
       }
 
-      // If editing and no new image, skip appending the file to FormData
       if (file) {
         formData.append("image", file);
       }
 
-      await onSubmit(formData); // Pass formData to onSubmit function
-      setFile(null); // Clear the selected file after submission
-      onCancel(); // Optionally close the modal after submission
+      await onSubmit(formData);
+      setFile(null);
+      onCancel();
     } catch (errorInfo) {
       console.log("Validation Failed:", errorInfo);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -72,6 +83,7 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
   const handleCancel = () => {
     form.resetFields(); // Reset the form fields
     setFile(null); // Reset the file state
+    setFileList([]);
     onCancel(); // Call the onCancel prop to close the modal
   };
 
@@ -81,9 +93,10 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
       title={`${isCreating ? "Add" : "Edit"} Product`}
       open={visible}
       onOk={handleSubmit}
-      onCancel={handleCancel} // Ensure the form is reset when the modal is closed
+      onCancel={handleCancel}
       okText={isCreating ? "Create" : "Update"}
       cancelText="Cancel"
+      confirmLoading={isLoading}
       style={{ top: 20 }}
     >
       <Form form={form} layout="vertical" style={{ width: "90%" }}>
@@ -97,31 +110,34 @@ const AddProductForm: React.FC<AddProductFormProps> = ({
         <Form.Item
           name="productDesc"
           label="Product Description"
-          rules={[
-            { required: true, message: "Please input the product description!" },
-            { min: 10, message: "Description must be at least 10 characters" },
-            { max: 200, message: "Description cannot exceed 200 characters" },        
-          ]}
+          rules={[{ required: true, message: "Please input the product description!" }]}
         >
-          <Input.TextArea rows={3} />
+          <Input.TextArea />
         </Form.Item>
         <Form.Item label="Product Image">
           <Upload
-            name="image"
-            listType="picture"
-            beforeUpload={() => false} // Prevent auto-upload
+            listType="picture-card"
+            fileList={fileList}
+            beforeUpload={() => false}
             onChange={handleFileChange}
-            maxCount={1} // Allow only one image
+            onPreview={(file) => window.open(file.url || file.thumbUrl, "_blank")}
+            onRemove={() => {
+              setFile(null); 
+              return true;
+            }}
           >
-            <Button icon={<UploadOutlined />}>Select Image</Button>
+            {/* Only show upload button if there is no image preview */}
+            {fileList.length === 0 && (
+              <div>
+                <Button icon={<UploadOutlined />}>Upload Image</Button>
+              </div>
+            )}
           </Upload>
-          {file && <p>Selected file: {file.name}</p>}
         </Form.Item>
       </Form>
     </Modal>
   );
 };
 
-
-
 export default AddProductForm;
+

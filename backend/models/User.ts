@@ -18,8 +18,8 @@ const UserSchema: Schema = new Schema(
     phoneNumber: { type: String, required: true },
     contryCode: { type: String, required: true, default: "+91" },
     password: { type: String, required: true },
-    createdAt: {type: String, default: Date.now},
-    updatedAt: {type: String, default: Date.now},
+    createdAt: {type: Date, default: Date.now},
+    updatedAt: {type: Date, default: Date.now},
     active: {type: Boolean, default: true},
   },
   {

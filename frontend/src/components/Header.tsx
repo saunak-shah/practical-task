@@ -1,30 +1,27 @@
 import { Layout, Menu, Button } from 'antd';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import '../css/Header.css';
-import { saveToLocalStorage } from "../global/common";
 
 const Header = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const active = localStorage.getItem("active") === "true";
-  
+
   const handleLogout = () => {
-    // Clear token from localStorage
     localStorage.removeItem("token");
 
-    // Clear all cookies (basic way, adjust as needed)
     document.cookie.split(";").forEach((cookie) => {
       const name = cookie.split("=")[0].trim();
       document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
     });
 
-    // Redirect to login page
     navigate("/login");
   };
 
   const mainMenuItems = [
     {
       key: 'home',
-      label: <Link to="/products" className="header-menu-item">Home</Link>,
+      label: <Link to="/" className="header-menu-item">Home</Link>,
     },
     ...(!active
        ? [
@@ -36,11 +33,17 @@ const Header = () => {
     )
   ];
 
+  // Set active key based on current path
+  const selectedKey = location.pathname === '/' ? 'home' : location.pathname.substring(1);
 
   return (
     <Layout.Header className="main-header-custom">
       {/* Menu for navigation links */}
-      <Menu mode="horizontal" className="main-menu">
+      <Menu
+        mode="horizontal"
+        className="main-menu"
+        selectedKeys={[selectedKey]}
+      >
         {mainMenuItems.map(item => (
           <Menu.Item key={item.key}>
             {item.label}

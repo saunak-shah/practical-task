@@ -4,6 +4,7 @@ import { User } from "../models/User";
 import { ROLE_ACCESS } from "../global/constant";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
+import moment from 'moment';
 
 // Load environment configuration
 dotenv.config();
@@ -127,11 +128,6 @@ export const login = async (req: Request, res: Response): Promise<void> => {
       { expiresIn: "7d" }
     );
 
-    /* if(user.active){
-      res.status(400).json({ message: "Admin users are not authorized to access this website." });
-      return;
-    } */
-
     res.status(200).json({
       message: "Login successful",
       token,
@@ -162,10 +158,11 @@ export const getAllUsers = async (
     const sortOrder = req.query.sortOrder === "desc" ? -1 : 1; // sort order: -1 for descending, 1 for ascending
 
     const createdAtFrom = req.query.createdAtFrom
-      ? new Date(req.query.createdAtFrom as string)
+      ? moment(req.query.createdAtFrom as string).startOf("day").format()
       : null;
-    const createdAtTo = req.query.createdAtTo
-      ? new Date(req.query.createdAtTo as string)
+
+      const createdAtTo = req.query.createdAtTo
+      ? moment(req.query.createdAtTo as string).endOf("day").format()
       : null;
 
     // filter object
@@ -175,6 +172,11 @@ export const getAllUsers = async (
       if (createdAtFrom) filter.createdAt.$gte = createdAtFrom;
       if (createdAtTo) filter.createdAt.$lte = createdAtTo;
     }
+
+    if (req.query.isUser) {
+      filter.active = (req.query.isUser === "active")
+    }
+
     const users = await User.find(filter)
       .sort({ [sortField]: sortOrder }) // dynamic sorting
       .skip(skip)
